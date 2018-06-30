@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatIconModule, MatMenuModule} from '@angular/material';
 import { HomeComponent } from '@components/home/home.component';
 
+import { ResizableModule } from 'angular-resizable-element';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,8 @@ import { HomeComponent } from '@components/home/home.component';
     MatCheckboxModule,
     MatToolbarModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    ResizableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

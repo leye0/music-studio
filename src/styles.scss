@@ -2,3 +2,8 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 body { margin: 0; }
+
+mwlResizable {
+  box-sizing: border-box; // required for the enableGhostResize option to work
+}
+
