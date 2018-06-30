@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatIconModule, MatMenuModule} from '@angular/material';
 import { HomeComponent } from '@components/home/home.component';
 
-import { ResizableModule } from 'angular-resizable-element';
+import { AngularDraggableModule } from 'angular2-draggable';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { ResizableModule } from 'angular-resizable-element';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
-    ResizableModule
+    AngularDraggableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
